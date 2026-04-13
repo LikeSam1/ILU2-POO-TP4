@@ -4,6 +4,12 @@ import villagegaulois.Etal;
 
 public class ScenarioTest {
 
+	Etal[] marche = new Etal[3];
+	Etal<Sanglier> etalSanglier = new Etal<>();
+	Etal<Poisson> etalPoisson = new Etal<>();
+	marche[0] = etalSanglier;
+	marche[1] = etalPoisson;
+	
 //	public static void acheterProduit(IEtal[] marche, String produit, int quantiteSouhaitee) {
 //		int quantiteRestante = quantiteSouhaitee;
 //		for (int i = 0; i < marche.length && quantiteRestante != 0; i++) {
